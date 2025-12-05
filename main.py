@@ -1,6 +1,6 @@
 # main_poisson.py
 import os
-from poisson_physics import solve_poisson
+from poisson import solve_poisson
 from dataset import build_dataset
 from models import MLP
 from train import train_model
